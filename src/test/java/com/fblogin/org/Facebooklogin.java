@@ -15,6 +15,7 @@ public class Facebooklogin extends Base_Class  {
 	      sendKeys(login.getUsername(), "manivenom@gmail.com");
 	      sendKeys(login.getPassword(), "robinleo");
 	      click(login.getLogin());
+              driver.close();
 
 	}
 
